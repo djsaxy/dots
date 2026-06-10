@@ -41,7 +41,7 @@
     },
     "bar": {
         "autoHideDelay": 100,
-        "autoShowDelay": 200,
+        "autoShowDelay": 500,
         "backgroundOpacity": 0.8,
         "barType": "floating",
         "capsuleColorKey": "none",
@@ -115,14 +115,6 @@
                     "pinned": [
                         "Cachy-Update"
                     ]
-                },
-                {
-                    "hideWhenZero": true,
-                    "hideWhenZeroUnread": false,
-                    "iconColor": "primary",
-                    "id": "NotificationHistory",
-                    "showUnreadBadge": true,
-                    "unreadBadgeColor": "error"
                 },
                 {
                     "applyToAllMonitors": false,
@@ -373,7 +365,7 @@
     },
     "idle": {
         "customCommands": "[]",
-        "enabled": true,
+        "enabled": false,
         "fadeDuration": 5,
         "lockCommand": "",
         "lockTimeout": 660,
@@ -414,7 +406,7 @@
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": true,
+        "enabled": false,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -433,7 +425,7 @@
         "enableKeyboardLayoutToast": true,
         "enableMarkdown": false,
         "enableMediaToast": false,
-        "enabled": true,
+        "enabled": false,
         "location": "top_right",
         "lowUrgencyDuration": 3,
         "monitors": [
@@ -569,135 +561,7 @@
         "activeTemplates": [
             {
                 "enabled": true,
-                "id": "alacritty"
-            },
-            {
-                "enabled": true,
-                "id": "btop"
-            },
-            {
-                "enabled": true,
-                "id": "cava"
-            },
-            {
-                "enabled": true,
-                "id": "discord"
-            },
-            {
-                "enabled": true,
-                "id": "ghostty"
-            },
-            {
-                "enabled": true,
-                "id": "fuzzel"
-            },
-            {
-                "enabled": true,
-                "id": "foot"
-            },
-            {
-                "enabled": true,
-                "id": "emacs"
-            },
-            {
-                "enabled": true,
-                "id": "gtk"
-            },
-            {
-                "enabled": true,
-                "id": "helix"
-            },
-            {
-                "enabled": true,
-                "id": "hyprland"
-            },
-            {
-                "enabled": true,
-                "id": "hyprtoolkit"
-            },
-            {
-                "enabled": true,
-                "id": "mango"
-            },
-            {
-                "enabled": true,
-                "id": "labwc"
-            },
-            {
-                "enabled": true,
-                "id": "kitty"
-            },
-            {
-                "enabled": true,
-                "id": "kcolorscheme"
-            },
-            {
-                "enabled": true,
                 "id": "niri"
-            },
-            {
-                "enabled": true,
-                "id": "pywalfox"
-            },
-            {
-                "enabled": true,
-                "id": "qt"
-            },
-            {
-                "enabled": true,
-                "id": "scroll"
-            },
-            {
-                "enabled": true,
-                "id": "sway"
-            },
-            {
-                "enabled": true,
-                "id": "steam"
-            },
-            {
-                "enabled": true,
-                "id": "starship"
-            },
-            {
-                "enabled": true,
-                "id": "spicetify"
-            },
-            {
-                "enabled": true,
-                "id": "telegram"
-            },
-            {
-                "enabled": true,
-                "id": "vicinae"
-            },
-            {
-                "enabled": true,
-                "id": "code"
-            },
-            {
-                "enabled": true,
-                "id": "walker"
-            },
-            {
-                "enabled": true,
-                "id": "zed"
-            },
-            {
-                "enabled": true,
-                "id": "zathura"
-            },
-            {
-                "enabled": true,
-                "id": "yazi"
-            },
-            {
-                "enabled": true,
-                "id": "wezterm"
-            },
-            {
-                "enabled": true,
-                "id": "zenBrowser"
             }
         ],
         "enableUserTheming": false
@@ -722,6 +586,34 @@
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
+            {
+                "appearance": "dark",
+                "colorScheme": "Noctalia (default)",
+                "darkMode": true,
+                "generationMethod": "tonal-spot",
+                "paletteColors": [
+                    "#9ecaff",
+                    "#bbc7db",
+                    "#d6bee4",
+                    "#ffb4ab"
+                ],
+                "path": "/home/dbecker/Pictures/nordtower.png",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Noctalia (default)",
+                "darkMode": true,
+                "generationMethod": "tonal-spot",
+                "paletteColors": [
+                    "#9ecaff",
+                    "#bbc7db",
+                    "#d6bee4",
+                    "#ffb4ab"
+                ],
+                "path": "/home/david/Pictures/nordtower.png",
+                "useWallpaperColors": true
+            }
         ],
         "fillColor": "#000000",
         "fillMode": "crop",
@@ -752,7 +644,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "single",
+        "viewMode": "recursive",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
