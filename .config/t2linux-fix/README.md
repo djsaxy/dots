@@ -1,3 +1,5 @@
+# From lilithmooncohen. Just getting lumped in with my dots so I don't forget which fix actually worked for my Macbook.
+
 # T2Linux MacBook Suspend Fix
 
 This script configures your system to properly suspend and resume by managing the Broadcom WiFi driver and Apple BCE keyboard backlight driver.
