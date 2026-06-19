@@ -1,0 +1,105 @@
+[options]
+#allow_bold = true
+#audible_bell = false
+#bold_is_bright = true
+#cell_height_scale = 1.0
+#cell_width_scale = 1.0
+clickable_url = true
+#clickable_url_ctrl = false
+#dynamic_title = true
+font = JetBrainsMono 14
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+word_char_exceptions = -=&#:/.?@+~_%;
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = true
+hyperlinks = true
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# "system", "on" or "off"
+#cursor_blink = system
+
+# "block", "underline" or "ibeam"
+#cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+#scrollbar = off
+
+# Whether to prefer using the GTK dark theme variant.
+# gtk_dark_theme = true
+
+# Enable smart copy. ^C will copy if text has been selected. ^V will paste. It
+# is no longer possible to send a ^V to the running program when this option is
+# enabled.
+#smart_copy = false
+
+[colors]
+# If both of these are unset, cursor falls back to the foreground color,
+# and cursor_foreground falls back to the background color.
+
+foreground          = #cdd6f4
+foreground_bold     = #cdd6f4
+cursor              = #cdd6f4
+cursor_foreground   = #1e1e2e
+background          = #1e1e2e
+
+
+# 20% background transparency (requires a compositor)
+#background = rgba(63, 63, 63, 0.8)
+
+# If unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# Colors from color0 to color254 can be set
+color0  = #1e1e2e # base00 - Black
+color1  = #f38ba8 # base08 - Red
+color2  = #a6e3a1 # base0B - Green
+color3  = #f9e2af # base0A - Yellow
+color4  = #89b4fa # base0D - Blue
+color5  = #cba6f7 # base0E - Magenta
+color6  = #94e2d5 # base0C - Cyan
+color7  = #cdd6f4 # base05 - White
+color8  = #45475a # base03 - Bright Black
+color9  = #f38ba8 # base08 - Bright Red
+color10 = #a6e3a1 # base0B - Bright Green
+color11 = #f9e2af # base0A - Bright Yellow
+color12 = #89b4fa # base0D - Bright Blue
+color13 = #cba6f7 # base0E - Bright Magenta
+color14 = #94e2d5 # base0C - Bright Cyan
+color15 = #b4befe # base07 - Bright White
+color16 = #fab387 # base09
+color17 = #f2cdcd # base0F
+color18 = #181825 # base01
+color19 = #313244 # base02
+color20 = #585b70 # base04
+color21 = #f5e0dc # base06
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
