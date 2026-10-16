@@ -1,6 +1,6 @@
 # === App Binds ===
 
-# Terminal 
+# Terminal
 super + Return
     termite
 
@@ -10,7 +10,7 @@ super + space
 
 # Browser
 super + b
-    helium-browser
+    librewolf
 
 # Incognito Browser
 super + shift + b
